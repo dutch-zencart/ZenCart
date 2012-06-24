@@ -2888,7 +2888,8 @@ INSERT INTO currencies VALUES (4,'Canadian Dollar','CAD','$','','.',',','2','1.1
 INSERT INTO currencies VALUES (5,'Australian Dollar','AUD','$','','.',',','2','1.1789', now());
 #INSERT INTO currencies VALUES (6,'Japanese Yen','JPY','&yen;','','','','0','95.5927', now());
 
-INSERT INTO languages VALUES (1,'English','en','icon.gif','english',1);
+INSERT INTO languages VALUES (1,'Nederlands','nl','icon.gif','dutch',1);
+INSERT INTO languages VALUES (2,'English','en','icon.gif','english',2);
 
 INSERT INTO layout_boxes (layout_template, layout_box_name, layout_box_status, layout_box_location, layout_box_sort_order, layout_box_sort_order_single, layout_box_status_single) VALUES ('default_template_settings', 'banner_box_all.php', 1, 1, 5, 0, 0);
 INSERT INTO layout_boxes (layout_template, layout_box_name, layout_box_status, layout_box_location, layout_box_sort_order, layout_box_sort_order_single, layout_box_status_single) VALUES ('default_template_settings', 'banner_box.php', 1, 0, 300, 1, 127);
